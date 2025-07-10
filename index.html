@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendario Económico</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div id="economic-calendar-382492"></div>
+
+  <script type="text/javascript" src="https://fxverify.com/Content/remote/remote-calendar-widget.js"></script>
+  <script type="text/javascript">
+    RemoteCalendar({
+      "DefaultTime": "today",
+      "DefaultTheme": "plain",
+      "Url": "https://fxverify.com",
+      "SubPath": "economic-calendar",
+      "IsShowEmbedButton": true,
+      "DefaultCountries": "AU,CA,CH,DE,US,GB,NZ,JP,EU",
+      "DefaultImpacts": "HIGH",
+      "ContainerId": "economic-calendar-382492"
+    });
+  </script>
+</body>
+</html>
